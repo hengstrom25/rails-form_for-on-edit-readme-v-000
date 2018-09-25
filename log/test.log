@@ -1251,6 +1251,7 @@ Processing by PostsController#edit as HTML
 Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.1ms)
 Started PATCH "/posts/1" for 127.0.0.1 at 2018-09-24 16:33:14 +0000
   [1m[35m (0.2ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (3.1ms)[0m  DELETE FROM "posts";
   [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
@@ -1344,3 +1345,5 @@ Processing by PostsController#show as HTML
   Rendered posts/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> 638f4a4994b10ad879afaa9173bf52ecdba84add
